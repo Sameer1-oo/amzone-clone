@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f5f5f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #a6a6a6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    height: 90px;
+    color: #1b1b1b;
+}
+
+
+.logo img{
+    height: auto;
+    width: 200px;
+    
+}
+
+
+header nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('img/WhatsApp\ Image\ 2024-11-10\ at\ 14.30.08_3313a81c.jpg') no-repeat center center/cover;
+  
+}
+
+.about-section {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+.about-text h1 span{
+    color: #50e3c2;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color:white;
+}
+
+.about-text .year {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: auto;
+}
+
+.member .info h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.member .info p {
+    font-size: 14px;
+    color: #777;
+}
